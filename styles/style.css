@@ -1,3 +1,9 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -7,3 +13,127 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+/* shared code  */
+.display-flex{
+    display: flex;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
+/* color code  */
+.dark-1{
+    color:#131313;
+}
+.orange{
+    color:rgba(255, 144, 14, 1);
+}
+
+.dark-2{
+    color:#424242;
+}
+.dark-3{
+    color:rgba(114, 114, 114, 1);
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+/* btn code  */
+.primary-btn{
+    background-color: rgba(255, 144, 14, 1);
+    color:#fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 24px;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    
+   
+}
+
+/* main code  */
+
+/* navbar reletade styles  */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+   
+
+
+}
+
+.brand-name{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    list-style: none;
+}
+.item-link{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.12rem;
+    font-weight: medium;
+    
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    
+    margin: 0 auto;
+}
+
+/* banner reletade style  */
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-details{
+    font-size: 1rem;
+    font-weight: 400;
+     margin-bottom: 30px;
+}
+.banner-img{
+    width: 100%;
+}
+/* feture reletade  */
+.feture-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:24px
+}
+.feture-details{
+    margin-left: 73px;
+    margin-top: 200px;
+    margin-bottom: 24px;
+    max-width: 530px;
+}
+
+.feture-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+.feture-info{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#727272;
+    margin-bottom: 24px;
+    max-width: 530px;
+}
+
