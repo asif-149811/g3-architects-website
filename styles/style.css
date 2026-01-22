@@ -215,6 +215,7 @@ main > section{
     gap:100px;
 }
 
+
 #infor-box{
     border-left: 5px solid #FF900E;
     padding: 20px;
@@ -237,11 +238,10 @@ main > section{
 .infor-card{
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     max-width: 586px;
-    /* border: 1px solid red; */
 }
+
 .infor-card-title{
     font-size: 1.25rem;
     font-weight: 600;
@@ -255,8 +255,9 @@ main > section{
 .infor-card-details{
     font-size: 1rem;
 }
-.infor-image{
+.infor-image img{
     margin-top: 30px;
+    width: 100%;
 }
 #experience-badge{
     padding:45px 42px;
@@ -276,7 +277,23 @@ main > section{
     font-weight: 700;
 }
 
+footer{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.endd{
+    border-radius: 8px;
+    width: 50%;
+    background-color: rgba(255, 244, 231, 1);
+    padding: 10px 200px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(66, 66, 66, 1);
+}
 
 
 
@@ -319,6 +336,26 @@ main > section{
     gap:40px;
 }
 
+.information-section{
+    flex-direction: column;
+}
+.infor-image img{
+    width: 100%;
+}
+#experience-badge{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.infor-image{
+    margin-top: 10px;
+}
+.endd{
+    margin-top: 40px;
+    
+}
+
+
 
 }
 
@@ -333,18 +370,19 @@ main > section{
    margin: 40px auto;
    
  }
-.feture-img{
-    grid-template-rows: repeat(1, 1fr);
+ .feture-img {
     margin: 0 auto;
-    
- }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* width: 100%; */
+}
  .experience-container{
     grid-template-columns: repeat(2, 1fr);
    
  }
   .experience-card{
     margin: 0 auto;
-    gap:60px;
+    /* gap:px; */
  }
   .experience-title, .experience-info{
     margin-left: 80px;
@@ -355,6 +393,22 @@ main > section{
     justify-items: center;
     gap:40px;
 }
+.information-section{
+    flex-direction: column;
+}
+.infor-image img{
+    width: 100%;
+}
+#experience-badge{
+    margin: 15px 80px
+}
+.infor-image{
+    margin-top: 10px;
+}
+.infor-head{
+    margin-left: 20px;
+}
 
 }
+
 /* medium  */
