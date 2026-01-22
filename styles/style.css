@@ -137,3 +137,45 @@ main > section{
     max-width: 530px;
 }
 
+
+
+
+/* responsive  */
+/* normal  */
+@media screen and (max-width:576px) {
+.navbar, .item-links, .feture-list{
+    flex-direction: column;
+    
+}
+ .feture-img{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    
+ }
+ .feture-details{
+   margin-top: 60px;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+ }
+}
+
+
+/* tablet  */
+@media  screen and (min-width:576px) and (max-width:992px) {
+
+ .feture-list{
+    flex-direction: column;
+ }
+  .feture-details{
+   margin: 40px auto;
+   
+ }
+.feture-img{
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 auto;
+    
+ }
+
+}
+/* medium  */
