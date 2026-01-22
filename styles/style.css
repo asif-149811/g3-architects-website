@@ -137,6 +137,82 @@ main > section{
     max-width: 530px;
 }
 
+/* experirence reletade */
+
+.experience-card{
+    border: 1px solid #FF900E;
+     width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap:100px;
+     /* max-width: 1140px; */
+}
+.experience-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+.experience-name{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color:#727272;
+    margin-top: 5px;
+}
+.experience-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+
+}
+.experience-info{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 100px;
+    color: #727272;
+    max-width: 540px;
+    
+}
+/* sponsore reletade  */
+.sponsor-head{
+    max-width: 540px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+.sponsor-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.sponsor-info{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   margin-bottom: 130px;
+    
+
+}
+.sponsor-companies img{
+    filter: grayscale(100%);
+}
+
+
+
+
 
 
 
@@ -147,7 +223,7 @@ main > section{
     flex-direction: column;
     
 }
- .feture-img{
+ .feture-img, .experience-container, .sponsor-companies{
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
     
@@ -158,6 +234,25 @@ main > section{
    margin-right: 20px;
    
  }
+ .experience-container{
+    gap:24px;
+
+ }
+ .experience-card{
+    margin: 0 auto;
+    
+ }
+.experience-title, .experience-info{
+    margin-left: 20px;
+
+}
+.sponsor-companies{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap:40px;
+}
+
+
 }
 
 
@@ -176,6 +271,23 @@ main > section{
     margin: 0 auto;
     
  }
+ .experience-container{
+    grid-template-columns: repeat(2, 1fr);
+   
+ }
+  .experience-card{
+    margin: 0 auto;
+    gap:60px;
+ }
+  .experience-title, .experience-info{
+    margin-left: 80px;
+    
+ }
+.sponsor-companies{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap:40px;
+}
 
 }
 /* medium  */
