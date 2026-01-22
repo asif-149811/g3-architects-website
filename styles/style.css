@@ -350,11 +350,18 @@ footer{
 .infor-image{
     margin-top: 10px;
 }
-.endd{
+.endd {
     margin-top: 40px;
-    
+    border-radius: 8px;
+    width: 38%;
+    background-color: rgb(255, 244, 231);
+    padding: 10px 134px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
 }
-
 
 
 }
@@ -409,6 +416,18 @@ footer{
     margin-left: 20px;
 }
 
+.endd {
+    margin-top: 40px;
+    border-radius: 8px;
+    width: 38%;
+    background-color: rgb(255, 244, 231);
+    padding: 10px 130px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
 }
 
 /* medium  */
